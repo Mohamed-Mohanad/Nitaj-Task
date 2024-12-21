@@ -65,6 +65,9 @@ This project is a simple Todo List Web API implemented using .NET Core, designed
 - **Presentation Layer:** API controllers.
 ---
 
+## Note
+- Just change the connection string at appsettings.json and run the project it will automaticaly create the database and apply the migrations and seed dummy data for test
+
 ## Author
 Mohamed Mohanad
 
