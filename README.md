@@ -28,7 +28,6 @@ This project is a simple Todo List Web API implemented using .NET Core, designed
     - **Specification Pattern:** For flexible and reusable query filters.
     - **Result Pattern:** Unified approach to handling results and errors.
     - **Localization:** Error messages support multiple languages.
-3. **Optional Enhancements:**
     - Swagger: API documentation for easier interaction and testing.
 
 ---
