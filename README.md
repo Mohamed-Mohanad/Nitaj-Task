@@ -47,7 +47,7 @@ This project is a simple Todo List Web API implemented using .NET Core, designed
 ---
 
 ## Tech Stack
-- **.NET 7**: Latest framework features.
+- **.NET 8**: Latest framework features.
 - **Entity Framework Core 8**: Simplified data access.
 - **FluentValidation**: Validation for request models.
 - **Serilog**: Enhanced logging.
