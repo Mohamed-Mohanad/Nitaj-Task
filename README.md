@@ -10,6 +10,7 @@ This project is a simple Todo List Web API implemented using .NET Core, designed
     - Create a new Todo item.
     - Mark a Todo item as completed.
     - Retrieve all Todo items.
+    - Retrieve completed Todo items.
     - Retrieve pending (not completed) Todo items.
 2. **Additional Features:**
     - **CQRS Pattern:** Clear separation of command and query responsibilities.
@@ -57,65 +58,13 @@ This project is a simple Todo List Web API implemented using .NET Core, designed
 ---
 
 ## Architecture
-- **Domain Layer:** Core business logic and entities.
+- **Domain Layer:** entities.
 - **Application Layer:** Handles CQRS, validation, and DTO mappings.
-- **Infrastructure Layer:** Implements data persistence, caching, and external integrations.
-- **Presentation Layer:** API controllers and middleware.
-
----
-
-## How to Run
-
-1. **Clone Repository:**
-    ```bash
-    git clone <repository-url>
-    cd todo-list-api
-    ```
-
-2. **Setup:**
-    - Ensure you have .NET 7 SDK installed.
-
-3. **Run Application:**
-    ```bash
-    dotnet run
-    ```
-    - The API will be available at `http://localhost:5000`.
-
-4. **Swagger UI:**
-    - Navigate to `http://localhost:5000/swagger` for API documentation.
-
----
-
-## Testing
-
-- **Unit Tests:**
-    - Navigate to the test project directory.
-    - Run tests using the following command:
-    ```bash
-    dotnet test
-    ```
-
----
-
-## Future Improvements
-- Add JWT-based authentication and authorization.
-- Implement a SQL Server database provider for persistence.
-- Add integration tests for end-to-end validation.
-
----
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## Acknowledgments
-- Inspired by Clean Architecture principles and best practices.
-- Special thanks to the .NET community for their tools and resources.
-
+- **Infrastructure Layer:** Implements caching, sedder, and external integrations.
+- **Persistence Layer:** Implements data persistence, database tables configurations and migrations.
+- **Presentation Layer:** API controllers.
 ---
 
 ## Author
-[Your Name]  
-[Your Contact Info]
+Mohamed Mohanad
 
